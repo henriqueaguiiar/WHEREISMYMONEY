@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de Moeda</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Consulta de Moeda</h1>
+    <form id="coinForm">
+      <input type="text" id="coinInput" name="coin" placeholder="Digite o nome da moeda" required />
+      <button type="submit">Consultar</button>
+    </form>
+
+
+    <div id="result">
+      <p><strong>Moeda:</strong> <span id="coinName"></span></p>
+      <p><strong>Preço (USD):</strong> <span id="coinPrice"></span></p>
+    </div>
+  </div>
+
+  <script src="/dist/script.js"></script>
+</body>
+</html>
