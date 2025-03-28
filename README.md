@@ -10,7 +10,6 @@ Este é um projeto de estudo que consome a API da CoinGecko para obter o preço 
 - **TypeScript**
 - **Axios** (para fazer requisições HTTP)
 - **dotenv** (para gerenciar variáveis de ambiente)
-- **Vercel** (para deploy na plataforma de serverless)
 
 ## Funcionalidades
 
